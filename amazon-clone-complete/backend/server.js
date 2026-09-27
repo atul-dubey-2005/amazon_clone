@@ -32,7 +32,7 @@ app.use('/api/coupons', require('./routes/coupons')(pool));
 app.use('/api/returns', require('./routes/returns')(pool));
 app.use('/api/notifications', require('./routes/notifications')(pool));
 
-// Health check
+
 app.get('/api/health', (req, res) => {
   res.json({ status: 'Backend is running' });
 });
