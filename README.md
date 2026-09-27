@@ -19,7 +19,7 @@ A complete Amazon-like e-commerce platform built with React (Frontend) and Node.
 
 ```
 amazon-clone-complete/
-├── backend/                    # Express.js Backend
+├── backend/                  
 │   ├── server.js              # Main server file
 │   ├── package.json           # Backend dependencies
 │   ├── vercel.json            # Vercel config
